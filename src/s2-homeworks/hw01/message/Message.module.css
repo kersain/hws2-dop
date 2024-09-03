@@ -1,0 +1,62 @@
+.message {
+    width: 575px;
+    height: 77px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+}
+
+.imageAndText {
+    display: flex;
+    
+}
+
+.imageAndText img {
+    width: 48px;
+    height: 48px;
+    margin-right: 24px;
+    margin-bottom: 5px;
+}
+
+.text {
+    min-width: 400px;
+    height: 60px;
+    outline: 1px solid red;
+    background-color: rgba(0, 102, 204, 1);
+    color: white;
+    border-radius: 20px 20px 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text:after {
+    content: '';
+}
+
+.name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: left;
+    padding: 0 0 3px 15px;
+}
+
+.messageText {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    padding-left: 15px;
+}
+
+.time {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12.19px;
+    width: 26px;
+    height: 12px;
+    padding-left: 10px;
+}
